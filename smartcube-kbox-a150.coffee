@@ -45,7 +45,8 @@ module.exports =
 		image: 'resin-image-flasher'
 		fstype: 'resinos-img'
 		version: 'yocto-warrior'
-		deployArtifact: 'resin-image-flasher-smartcube-kbox-a150.resinos-img'
+		deployArtifact: 'resin-image-smartcube-kbox-a150.resinos-img'
+		deployFlasherArtifact: 'resin-image-flasher-smartcube-kbox-a150.resinos-img'
 		compressed: true
 
 	configuration:

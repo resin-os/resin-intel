@@ -41,7 +41,8 @@ module.exports =
 		image: 'resin-image-flasher'
 		fstype: 'resinos-img'
 		version: 'yocto-warrior'
-		deployArtifact: 'resin-image-flasher-surface-go.resinos-img'
+		deployArtifact: 'resin-image-surface-go.resinos-img'
+		deployFlasherArtifact: 'resin-image-flasher-surface-go.resinos-img'
 		compressed: true
 
 	configuration:
