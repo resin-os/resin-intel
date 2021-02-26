@@ -15,6 +15,10 @@ CONNECTIVITY_FIRMWARES =+ " \
 	linux-firmware-ralink-nic \
 	"
 
+CONNECTIVITY_FIRMWARES_append_genericx86-64 = " \
+    linux-firmware-ath10k \
+"
+
 CONNECTIVITY_FIRMWARES_append_surface-go = " \
 	linux-firmware-ath10k-qca6174 \
 	linux-firmware-i915-kbl \
