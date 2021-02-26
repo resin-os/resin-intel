@@ -1,4 +1,19 @@
 - commits:
+    - subject: add ath10k driver to Intel NUC
+      hash: fd0ee8091d6ae23660d0cd688184b3ca5c313126
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: add ath10k driver to Intel NUC
+        changelog-entry: add ath10k driver to Intel NUC
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 2.71.0+rev2
+  date: 2021-02-26T18:26:55.410Z
+- commits:
     - subject: Update meta-balena from v2.68.1 to v2.71.0
       hash: 3240fa45e71a64a304a71b2b94677988e7f09cfe
       body: |

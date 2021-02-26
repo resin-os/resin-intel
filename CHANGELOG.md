@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.71.0+rev2
+## (2021-02-26)
+
+* add ath10k driver to Intel NUC [Kyle Harding]
+
 # v2.71.0+rev1
 ## (2021-02-16)
 
