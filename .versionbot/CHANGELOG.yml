@@ -1,4 +1,29 @@
 - commits:
+    - subject: Make megaraid_sas built-in on genericx86-64-ext
+      hash: eca0d3939109e99454864df310e7965bd20d9aa8
+      body: >
+        We now build megaraid_sas as a module which means flasher is able to
+        flash
+
+        balenaOS to a device lying on it (because the driver is loaded from the
+        flasher
+
+        media) but the newly flashed balenaOS does not boot because the driver
+        lies
+
+        on the same device it enables.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: Make megaraid_sas built-in on genericx86-64-ext
+        changelog-entry: Make megaraid_sas built-in on genericx86-64-ext
+        Signed-off-by: Michal Toman <michalt@balena.io>
+        signed-off-by: Michal Toman <michalt@balena.io>
+      author: Michal Toman
+      nested: []
+  version: 2.79.7+rev2
+  date: 2021-07-14T14:43:52.379Z
+- commits:
     - subject: Update meta-balena from v2.78.0 to v2.79.7
       hash: 82017227a4bc102e681462d629e2613053125f3f
       body: |

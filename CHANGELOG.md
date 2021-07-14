@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.79.7+rev2
+## (2021-07-14)
+
+* Make megaraid_sas built-in on genericx86-64-ext [Michal Toman]
+
 # v2.79.7+rev1
 ## (2021-06-02)
 
